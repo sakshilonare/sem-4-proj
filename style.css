@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Sucrose Bold Two';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2') format('woff2');
+    }
+@font-face {
+    font-family: 'IM Fell French Canon Pro';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2') format('woff2');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header { 
+  background: url(backg.jpg)no-repeat;
+  padding-top: 61.93333333%;
+  background-size: cover;
+  font-family: 'Sucrose Bold Two';
+}
+header img {
+  position: absolute;
+  top: 39rem;
+  right: 50rem;
+  width: 45.8%;
+}
+header h1 { 
+  position: fixed;
+  top: 2rem;
+  right: 60rem;
+  font-size: 12vw;
+  line-height: .8;
+  margin-top: 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+header h1 span {
+  display: block;
+  font-size: 8vw;
+  padding: 15px;
+}
+
+.btn{
+    position: fixed;
+  top: 30rem;
+  right: 60rem;
+  font-size: 1.5vw;
+  line-height: .8;
+  padding: 2%;
+  margin-top: 0;
+  text-align: center;
+  background: none;
+  border: palegreen;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn a{
+  color: rgb(11, 11, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    border: no;
+}
+
+.btn a:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn a:link{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  font-weight: absolute;
+}
+
+.btn1{
+position: fixed;
+top: 32rem;
+right: 60rem;
+font-size: 1.5vw;
+line-height: .8;
+margin-top: 0;
+text-align: center;
+background: none;
+border: palegreen;
+}
+
+.btn1:hover{
+  cursor: pointer;
+}
+
+.btn1 a{
+color: rgb(34, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
+  border: no;
+}
+
+.btn1 a:hover{
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn1 a:link{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: beige;
+font-weight: absolute;
+}
+
+main { 
+  background: #fff;
+  position: relative;
+  border: 1px solid #fff;
+  font-family: 'IM Fell French Canon Pro';
+  font-size: 1.4rem;
+  padding: 2rem 25%;
+  line-height: 1.6;
+}
+
+main h1{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.description-section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.description-section:nth-child(1) {
+	padding-top: 4rem;
+}
+
+.scrolltop-wrap {
+	color: var(--main-red-color);
+	margin-bottom: 2rem;
+	position: fixed;
+	z-index: 100;
+	right: 5%;
+	bottom: 5%;
+	display: none;
+}
+
+.back-to-top-button {
+	cursor: pointer;
+	color: var(--main-red-color);
+}
+
+#myBtn{
+  background: none;
+  border: none;
+}
+
+.social-icon {
+	color: #999;
+}
+
+.social-icon:hover {
+	color: var(--main-blue-color);
+}
+
+.fa-code {
+	color: #91546f;
+}
+
+.fa-heart {
+	color: red;
+}
+
+#siteFooter{
+  background: linear-gradient(to left, #B1785D, #FEAA61,#322F36);
+}
+#siteFooter p a {
+	font-weight: bold;
+	color: #000000;
+}
+
+#siteFooter p {
+	font-size: 1.1rem;
+}
+
+.done {
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+@media all and (max-width: 400px) {
+  main { padding: 2rem; }
+}
